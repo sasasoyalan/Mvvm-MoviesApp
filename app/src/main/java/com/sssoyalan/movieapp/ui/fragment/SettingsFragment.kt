@@ -1,4 +1,4 @@
-package com.sssoyalan.movieapp.ui
+package com.sssoyalan.movieapp.ui.fragment
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat

@@ -1,4 +1,4 @@
-package com.sssoyalan.movieapp.ui
+package com.sssoyalan.movieapp.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

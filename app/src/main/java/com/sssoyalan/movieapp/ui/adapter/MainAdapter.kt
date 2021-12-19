@@ -1,4 +1,4 @@
-package com.sssoyalan.movieapp.ui
+package com.sssoyalan.movieapp.ui.adapter
 
 import android.content.Context
 import android.view.LayoutInflater

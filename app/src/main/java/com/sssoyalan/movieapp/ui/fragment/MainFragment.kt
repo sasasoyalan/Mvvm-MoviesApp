@@ -1,4 +1,4 @@
-package com.sssoyalan.movieapp.ui
+package com.sssoyalan.movieapp.ui.fragment
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -14,6 +14,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.sssoyalan.movieapp.R
 import com.sssoyalan.movieapp.data.model.Movie
+import com.sssoyalan.movieapp.ui.adapter.MainAdapter
 import com.sssoyalan.movieapp.ui.viewmodel.MainViewModel
 import com.sssoyalan.movieapp.vo.Resource
 import dagger.hilt.android.AndroidEntryPoint

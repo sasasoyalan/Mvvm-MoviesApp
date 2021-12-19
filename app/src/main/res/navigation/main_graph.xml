@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.sssoyalan.movieapp.ui.MainFragment"
+        android:name="com.sssoyalan.movieapp.ui.fragment.MainFragment"
         android:label="@string/pinsoft_movies"
         tools:layout="@layout/fragment_main">
         <action
@@ -41,12 +41,12 @@
     </fragment>
     <fragment
         android:id="@+id/movieDetailFragment"
-        android:name="com.sssoyalan.movieapp.ui.MovieDetailFragment"
+        android:name="com.sssoyalan.movieapp.ui.fragment.MovieDetailFragment"
         android:label="Movie detail"
         tools:layout="@layout/fragment_movie_detail" />
     <fragment
         android:id="@+id/favoritesFragment"
-        android:name="com.sssoyalan.movieapp.ui.FavoritesFragment"
+        android:name="com.sssoyalan.movieapp.ui.fragment.FavoritesFragment"
         android:label="Favorite movies"
         tools:layout="@layout/fragment_favorites" >
         <action
@@ -59,12 +59,12 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.sssoyalan.movieapp.ui.SettingsFragment"
+        android:name="com.sssoyalan.movieapp.ui.fragment.SettingsFragment"
         android:label="Settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.sssoyalan.movieapp.ui.AboutFragment"
+        android:name="com.sssoyalan.movieapp.ui.fragment.AboutFragment"
         android:label="About"
         tools:layout="@layout/fragment_about" />
 </navigation>
