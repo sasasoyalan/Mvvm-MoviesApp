@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Pinsoft</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shortdialog_title">Sırala</string>
+    <string name="about_info">Bu uygulama TMDb APIsini kullanır ancak TMDb tarafından onaylanmaz. @sasasoyalan tarafından demo amaçlı yapılmıştır.</string>
+    <string name="favorite_movies">Favori filmler (</string>
+    <string name="movie_deleted">Favorilerden kaldırıldı!</string>
+    <string name="votes">Puan</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">Vazgeç</string>
+    <string name="movie_saved">Favorilere eklendi!</string>
+    <string name="pinsoft">PinSoft</string>
+    <string name="search">Arama</string>
+    <string name="sort">Sırala</string>
+    <string name="favorites">Favoriler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="about">Hakkında</string>
+    <string name="language_api">Api Dili</string>
+    <string name="select_language_api">TMDb api dili seçin</string>
+    <string name="pinsoft_movies">PinSoft Filmler</string>
+</resources>

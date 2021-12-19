@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Movie Pinsoft</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shortdialog_title">Sort movies by</string>
+    <string name="about_info">This app uses the TMDb API but is not endorsed by TMDb. Made by @sasasoyalan for demo purposes.</string>
+    <string name="favorite_movies">Favorite movies (</string>
+    <string name="movie_deleted">Movie deleted from favorites!</string>
+    <string name="votes">Rating</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="movie_saved">Movie saved on favorites!</string>
+    <string name="pinsoft">PinSoft</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="language_api">Api Language</string>
+    <string name="select_language_api">Select a language from TMDb Api</string>
+    <string name="pinsoft_movies">PinSoft Movies</string>
+</resources>

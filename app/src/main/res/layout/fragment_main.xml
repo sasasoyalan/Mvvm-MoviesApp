@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.MainFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_search">
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/img_close"
+            android:queryHint="Search here.."
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_search_off_24"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintStart_toEndOf="@+id/searchView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="UnusedAttribute">
+        </ImageView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:progressTint="#000"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_movies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            tools:listitem="@layout/movies_row"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/img_not_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50dp"
+            android:visibility="gone"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/not_found"
+                android:layout_gravity="center">
+            </ImageView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

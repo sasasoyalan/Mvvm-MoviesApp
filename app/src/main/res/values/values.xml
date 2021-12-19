@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_names_array">
+        <item>English</item>
+        <item>Türkçe</item>
+    </string-array>
+
+    <string-array name="language_names_values_array">
+        <item>en</item>
+        <item>tr</item>
+    </string-array>
+
+    <string-array name="sort_values_array">
+        <item>A - Z</item>
+        <item>@string/votes</item>
+    </string-array>
+</resources>
