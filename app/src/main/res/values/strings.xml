@@ -18,4 +18,5 @@
     <string name="language_api">Api Language</string>
     <string name="select_language_api">Select a language from TMDb Api</string>
     <string name="pinsoft_movies">PinSoft Movies</string>
+    <string name="favorite_movies_nav">Favorite movies</string>
 </resources>

@@ -47,7 +47,7 @@
     <fragment
         android:id="@+id/favoritesFragment"
         android:name="com.sssoyalan.movieapp.ui.fragment.FavoritesFragment"
-        android:label="Favorite movies"
+        android:label="@string/favorite_movies_nav"
         tools:layout="@layout/fragment_favorites" >
         <action
             android:id="@+id/action_favoritesFragment_to_movieDetailFragment"
@@ -60,11 +60,11 @@
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.sssoyalan.movieapp.ui.fragment.SettingsFragment"
-        android:label="Settings"
+        android:label="@string/settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.sssoyalan.movieapp.ui.fragment.AboutFragment"
-        android:label="About"
+        android:label="@string/about"
         tools:layout="@layout/fragment_about" />
 </navigation>

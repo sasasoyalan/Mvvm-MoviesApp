@@ -19,4 +19,5 @@
     <string name="language_api">Api Dili</string>
     <string name="select_language_api">TMDb api dili seçin</string>
     <string name="pinsoft_movies">PinSoft Filmler</string>
+    <string name="favorite_movies_nav">Favori Filmler</string>
 </resources>
